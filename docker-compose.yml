@@ -1,0 +1,8 @@
+version: '3'
+services:
+  caffe:
+    image: "bvlc/caffe:cpu"
+    # stdin_open: true
+    tty: true
+    volumes:
+      - '../volumes/trashy-caffe:/workspace/cdata/'
